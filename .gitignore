@@ -5,7 +5,16 @@ mvnw.cmd
 
 
 HELP.md
-target/
+
+/target/test-classes
+/target/classes
+/target/generated-test-source/**
+/target/maven-archiver/**
+/target/maven-status/**
+/target/surefire-reports/**
+/target/test-classes/**
+/target/*.jar
+
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -38,3 +47,4 @@ build/
 ### VS Code ###
 .vscode/
 src/main/resources/application-db.properties
+target/movie-0.0.1-SNAPSHOT.jar.original
