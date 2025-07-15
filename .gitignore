@@ -7,7 +7,7 @@ mvnw.cmd
 
 HELP.md
 
-target/
+
 /target/test-classes
 /target/classes
 /target/generated-test-source/**
