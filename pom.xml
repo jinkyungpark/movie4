@@ -30,6 +30,10 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		  <dependency>
+			<groupId>jakarta.persistence</groupId>
+			<artifactId>jakarta.persistence-api</artifactId>			
+		</dependency>
 		<dependency>
 			<groupId>net.coobird</groupId>
 			<artifactId>thumbnailator</artifactId>
@@ -140,6 +144,10 @@
 							<classifier>jakarta</classifier>	
 							<version>5.0.0</version>
 						</path>	
+						<path>
+							<groupId>jakarta.persistence</groupId>
+							<artifactId>jakarta.persistence-api</artifactId>
+						</path>
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
