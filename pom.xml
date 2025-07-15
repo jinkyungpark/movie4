@@ -30,7 +30,7 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		  <dependency>
+		<dependency>
 			<groupId>jakarta.persistence</groupId>
 			<artifactId>jakarta.persistence-api</artifactId>			
 		</dependency>
@@ -121,8 +121,7 @@
 							<goal>process</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>target/generated-sources/annotations</outputDirectory>
-							<addSources>true</addSources>
+							<outputDirectory>target/generated-sources/annotations</outputDirectory>							
 							<processor>com.querydsl.apt.jpa.JPAAnnotationProcessor</processor>
 						</configuration>
 					</execution>

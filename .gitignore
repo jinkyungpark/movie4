@@ -7,15 +7,7 @@ mvnw.cmd
 
 HELP.md
 
-
-/target/test-classes
-/target/classes
-/target/generated-test-source/**
-/target/maven-archiver/**
-/target/maven-status/**
-/target/surefire-reports/**
-/target/test-classes/**
-/target/*.jar
+target/
 
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
