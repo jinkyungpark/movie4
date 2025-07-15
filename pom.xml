@@ -142,8 +142,7 @@
 						</path>
 						<path>
 							<groupId>javax.persistence</groupId>
-							<artifactId>javax.persistence-api</artifactId>
-							<version>2.2</version>
+							<artifactId>javax.persistence-api</artifactId>							
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
